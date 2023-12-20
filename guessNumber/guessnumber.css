@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#center {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.guessField {
+  padding: 8px;
+  width: 150px;
+}
+
+.guessSubmit {
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.guessSubmit:hover {
+  background-color: #45a049;
+}
+
+.resultParas {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #555;
+}
+
+.resultParas p {
+  margin: 5px 0;
+}
+
+.guesses {
+  font-weight: bold;
+}
+
+.lastResult {
+  font-weight: bold;
+}
+
+.lowOrHi {
+  font-weight: bold;
+}
+.result {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.guessSubmit {
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer; /* Add this line to set the cursor to a pointer */
+}
+
+.guessSubmit:hover {
+  background-color: #45a049;
+}
